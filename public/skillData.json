@@ -1,0 +1,98 @@
+[
+  {
+    "skillId": 1,
+    "skillName": "Beginner Guitar Lessons",
+    "providerName": "Alex Martin",
+    "providerEmail": "alex@skillswap.com",
+    "price": 20,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "This beginner guitar course is designed for anyone who has always wanted to play the guitar but didn’t know where to start. You’ll learn how to properly hold and tune your instrument, read basic chords, and strum simple songs within just a few sessions. Alex Martin, an experienced music instructor, focuses on building your confidence through hands-on practice and step-by-step lessons. The course also introduces rhythm exercises and finger techniques to strengthen your foundation. By the end of the course, you’ll be able to play popular melodies, understand basic music theory, and develop a sense of timing that will help you progress toward more advanced guitar skills.",
+    "image": "https://i.ibb.co.com/SDWkmtk4/01.png",
+    "category": "Music"
+  },
+  {
+    "skillId": 2,
+    "skillName": "Spoken English Practice",
+    "providerName": "Sara Hossain",
+    "providerEmail": "sara@skillswap.com",
+    "price": 10,
+    "rating": 4.6,
+    "slotsAvailable": 5,
+    "description": "This spoken English program is perfect for non-native speakers looking to build fluency and confidence in real-world conversations. Sara Hossain focuses on practical communication skills that you can immediately apply in your daily life, workplace, or studies. Through interactive sessions, you’ll improve your pronunciation, sentence formation, and vocabulary. The course includes fun activities like debates, storytelling, and role-playing to simulate everyday conversations. You’ll also receive personalized feedback on grammar, tone, and speaking pace. Whether you’re preparing for interviews, presentations, or social interactions, this program will help you sound more natural and confident in English.",
+    "image": "https://i.ibb.co.com/pryq196p/02.png",
+    "category": "Language"
+  },
+  {
+    "skillId": 3,
+    "skillName": "Yoga for Beginners",
+    "providerName": "Rina Das",
+    "providerEmail": "rina@skillswap.com",
+    "price": 15,
+    "rating": 4.9,
+    "slotsAvailable": 4,
+    "description": "Join this rejuvenating yoga program designed for complete beginners who wish to improve flexibility, balance, and inner peace. Guided by certified instructor Rina Das, the sessions combine gentle stretches, breathing techniques, and mindfulness practices to help you reconnect with your body. You’ll learn fundamental poses such as downward dog, warrior, and child’s pose while focusing on proper alignment and relaxation. Each class ends with a short meditation to reduce stress and boost focus. No prior experience or special equipment is required—just a yoga mat and a positive mindset. Within a few weeks, you’ll notice better posture, calmer breathing, and improved overall well-being.",
+    "image": "https://i.ibb.co.com/S1DjXWC/03.png",
+    "category": "Health & Fitness"
+  },
+  {
+    "skillId": 4,
+    "skillName": "Intro to Python Programming",
+    "providerName": "John Lee",
+    "providerEmail": "john@skillswap.com",
+    "price": 25,
+    "rating": 4.7,
+    "slotsAvailable": 2,
+    "description": "This hands-on Python programming course introduces beginners to one of the most popular and beginner-friendly coding languages. You’ll start by understanding the basics of variables, data types, loops, and conditionals, then move on to functions and working with real data. Instructor John Lee combines theory with practical examples to help you write clean, efficient code. The course also includes small projects like creating a calculator, a quiz app, and simple automation scripts. By the end, you’ll have a strong foundation to explore web development, data analysis, or even AI programming. No previous coding experience is required—just curiosity and commitment to learn.",
+    "image": "https://i.ibb.co.com/WvfQsK92/04.png",
+    "category": "Programming"
+  },
+  {
+    "skillId": 5,
+    "skillName": "French Language Exchange",
+    "providerName": "Clara Dupont",
+    "providerEmail": "clara@skillswap.com",
+    "price": 12,
+    "rating": 4.5,
+    "slotsAvailable": 6,
+    "description": "Enhance your French speaking skills through this interactive language exchange program led by native speaker Clara Dupont. The course emphasizes conversation and cultural understanding over strict grammar memorization. You’ll engage in guided discussions, vocabulary games, and pronunciation practice designed to make you comfortable expressing yourself naturally. Clara also introduces common French idioms, daily phrases, and listening exercises using real French media. Perfect for students, travelers, and professionals, this exchange-style class creates a relaxed, supportive environment to boost your fluency and confidence in French communication.",
+    "image": "https://i.ibb.co.com/8nGmgpnY/05.png",
+    "category": "Language"
+  },
+  {
+    "skillId": 6,
+    "skillName": "Photography Basics",
+    "providerName": "Michael Smith",
+    "providerEmail": "michael@skillswap.com",
+    "price": 18,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Discover the art of photography with this beginner-friendly workshop led by professional photographer Michael Smith. This course focuses on teaching the essentials of lighting, framing, and composition while helping you understand how to use your camera effectively. Whether you’re shooting on a DSLR, mirrorless, or even a smartphone, you’ll learn how to adjust settings like aperture, shutter speed, and ISO to capture stunning shots. You’ll also explore topics like storytelling through images and post-processing basics. Each session includes hands-on activities and feedback on your work to help you build confidence and creativity in photography.",
+    "image": "https://i.ibb.co.com/Pzjd9jtX/06.png",
+    "category": "Art & Design"
+  },
+  {
+    "skillId": 7,
+    "skillName": "Baking Homemade Bread",
+    "providerName": "Luna Chowdhury",
+    "providerEmail": "luna@skillswap.com",
+    "price": 14,
+    "rating": 4.9,
+    "slotsAvailable": 5,
+    "description": "Learn the joy of baking fresh, soft, and flavorful bread from scratch in this fun and engaging course by Luna Chowdhury. You’ll explore the science behind perfect dough consistency, yeast activation, and baking techniques that result in golden, crusty loaves. The course covers a variety of bread types, including whole wheat, sourdough, and sandwich loaves. Luna shares time-saving tips and kitchen hacks to help you bake efficiently even with limited equipment. Each session includes live demonstrations and practical assignments so you can practice at home. By the end, you’ll master baking and fill your home with the irresistible aroma of fresh bread.",
+    "image": "https://i.ibb.co.com/xKSdCkjn/07.png",
+    "category": "Cooking"
+  },
+  {
+    "skillId": 8,
+    "skillName": "Digital Marketing Essentials",
+    "providerName": "Tom Richardson",
+    "providerEmail": "tom@skillswap.com",
+    "price": 22,
+    "rating": 4.7,
+    "slotsAvailable": 4,
+    "description": "This course introduces you to the key concepts and strategies of digital marketing, helping you establish a strong online presence for your business or personal brand. Led by marketing expert Tom Richardson, the sessions cover social media marketing, search engine optimization (SEO), Google Ads, email campaigns, and content creation. You’ll learn how to identify your target audience, analyze competitors, and create effective campaigns that drive engagement and sales. The course includes real-world case studies and hands-on projects, giving you practical experience in planning and executing successful digital marketing strategies.",
+    "image": "https://i.ibb.co.com/whv7nwgY/08.png",
+    "category": "Business & Marketing"
+  }
+]
