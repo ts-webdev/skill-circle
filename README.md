@@ -1,3 +1,6 @@
+<!-- Banner -->
+<img src="https://scontent.fdac184-1.fna.fbcdn.net/v/t39.30808-6/585752122_122147586716909274_4467411717264986319_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHCVMaq4sOiVM-FgLQtNeExAYOjionxxmkBg6OKifHGacg28PQoZAEZ2b1X4ImvOiaIc5nDGSo3SJxXYqNpgEIl&_nc_ohc=d3F1Eh-IBDkQ7kNvwEwmncR&_nc_oc=Adn-JweAFfZc_H3bwyGT-zlHHzJrGs5cHFi_mCNyqGrTm47bgqgPS8WfbMytf4mmeeQ&_nc_zt=23&_nc_ht=scontent.fdac184-1.fna&_nc_gid=8yUcNNbmI-DG6v5TXznECg&oh=00_AfiwMmyurRKfvU4URLDIvNTPwItoHSiy5yjRZ2kjU-jjmw&oe=69232968" alt="Banner" width="100%" />
+
 # 🎓 SkillCircle
 
 An interactive platform where individuals can **offer, learn, and trade skills** within their local area. Whether it’s guitar lessons, coding help, yoga training, or language exchange — SkillCircle connects learners and providers in one community-driven platform.
