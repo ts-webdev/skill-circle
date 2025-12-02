@@ -2,3 +2,29 @@
 @plugin "daisyui" {
   themes: light --default;
 }
+
+/* Add to your global styles */
+@import 'animate.css';
+
+.animate__animated {
+  --animate-duration: 0.8s;
+}
+
+/* Custom scrollbar */
+textarea::-webkit-scrollbar {
+  width: 8px;
+}
+
+textarea::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background: #7209B7;
+  border-radius: 4px;
+}
+
+textarea::-webkit-scrollbar-thumb:hover {
+  background: #560BAD;
+}

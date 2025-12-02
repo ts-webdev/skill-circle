@@ -9,6 +9,9 @@ import ViewDetails from "../pages/ViewDetails";
 import About from "../pages/About";
 import ResetPassword from "../pages/ResetPassword";
 import ErrorPage from "../pages/ErrorPage";
+import Loading from "../pages/Loading";
+import allSkills from "../pages/allSkills";
+import Contact from "../pages/Contact";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +24,12 @@ const router = createBrowserRouter([
         Component: Home,
       },
       {
+        path: "/all-skills",
+        Component: allSkills,
+        hydrateFallbackElement: <Loading />,
+        loader: () => fetch("/skillData.json"),
+      },
+      {
         path: "/viewDetails/:id",
         element: (
           <PrivateRoute>
@@ -28,7 +37,7 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
         loader: () => fetch("/skillData.json"),
-        hydrateFallbackElement: <p>Loading...</p>,
+        hydrateFallbackElement: <Loading />,
       },
       {
         path: "/profile",
@@ -48,12 +57,16 @@ const router = createBrowserRouter([
       },
       {
         path: "/about",
-        Component: About
+        Component: About,
       },
       {
-        path: '/resetPassword',
-        Component: ResetPassword
-      }
+        path: "/contact",
+        Component: Contact,
+      },
+      {
+        path: "/resetPassword",
+        Component: ResetPassword,
+      },
     ],
   },
 ]);
