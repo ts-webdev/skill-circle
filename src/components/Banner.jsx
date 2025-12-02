@@ -11,7 +11,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const Banner = () => {
   return (
-    <div className="h-[80vh] bg-linear-to-tl pt-14 from-[#7209B7] via-[#3F37C9] to-[#4361EE] pb-16">
+    <div className="h-[70vh] bg-linear-to-tl pt-14 from-[#7209B7] via-[#3F37C9] to-[#4361EE] pb-16">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -41,8 +41,8 @@ const Banner = () => {
               <p className="hidden sm:block text-2xl">
                 Master languages, build confidence, and connect with the world.
               </p>
-              <button className="btn mt-3 btn-success text-white">
-                Explore Academic Courses
+              <button className="hidden lg:block btn mt-3 btn-success text-white">
+                Explore All Skills
               </button>
             </div>
           </div>
@@ -68,7 +68,7 @@ const Banner = () => {
                 Learn modern programming skills and shape tomorrow’s innovations
                 today.
               </p>
-              <button className="btn mt-3">Explore Academic Courses</button>
+              <button className="hidden lg:block btn mt-3">Explore All Skills</button>
             </div>
           </div>
         </SwiperSlide>
@@ -89,8 +89,8 @@ const Banner = () => {
                 Discover wellness, focus, and growth through mindful learning
                 experiences.
               </p>
-              <button className="btn btn-error mt-3 text-white">
-                Explore Academic Courses
+              <button className="hidden lg:block btn btn-error mt-3 text-white">
+                Explore All Skills
               </button>
             </div>
           </div>

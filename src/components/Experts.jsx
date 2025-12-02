@@ -11,7 +11,7 @@ import ExpertCard from "./expertCard";
 
 const Experts = () => {
   return (
-    <div className=" bg-linear-to-r from-[#ffc8dd] via-[#bde0fe] to-[#a2d2ff]">
+    <div className=" bg-linear-to-r from-[#ffc8dd] via-[#bde0fe] to-[#a2d2ff] mt-22">
       <div className="md:container mx-5 lg:hidden pt-10 flex flex-col items-center animate__animated  animate__fadeInUp">
         <h2 className="text-[#4361EE] text-lg font-semibold rounded-full bg-[#4362ee25] py-2 px-6 border boder-[#4361EE]">
           Top Rated Providers

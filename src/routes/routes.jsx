@@ -31,11 +31,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/viewDetails/:id",
-        element: (
-          <PrivateRoute>
-            <ViewDetails></ViewDetails>
-          </PrivateRoute>
-        ),
+        element: <ViewDetails></ViewDetails>,
         loader: () => fetch("/skillData.json"),
         hydrateFallbackElement: <Loading />,
       },
@@ -57,11 +53,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/about",
-        Component: About,
+        element: <About></About>,
       },
       {
         path: "/contact",
-        Component: Contact,
+        element: <Contact></Contact>,
       },
       {
         path: "/resetPassword",

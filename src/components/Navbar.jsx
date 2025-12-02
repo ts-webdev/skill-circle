@@ -5,7 +5,7 @@ import { AuthContext } from "../auth/AuthProvider";
 import toast from "react-hot-toast";
 import { BiLogInCircle, BiLogOutCircle } from "react-icons/bi";
 import { IoMdPersonAdd } from "react-icons/io";
-import defaultPhoto from "../assets/defaultPhoto.jpg"
+import defaultPhoto from "../assets/defaultPhoto.jpg";
 
 const Navbar = () => {
   const { user, setUser, logout } = use(AuthContext);
@@ -49,18 +49,20 @@ const Navbar = () => {
           All Skills
         </NavLink>
       </li>
-      <li>
-        <NavLink
-          className={({ isActive }) =>
-            isActive
-              ? "bg-purple-700 rounded-full px-5 py-2 text-white"
-              : "hover:rounded-full px-5 py-2"
-          }
-          to={"/profile"}
-        >
-          My Profile
-        </NavLink>
-      </li>
+      {user && (
+        <li>
+          <NavLink
+            className={({ isActive }) =>
+              isActive
+                ? "bg-purple-700 rounded-full px-5 py-2 text-white"
+                : "hover:rounded-full px-5 py-2"
+            }
+            to={"/profile"}
+          >
+            My Profile
+          </NavLink>
+        </li>
+      )}
       <li>
         <NavLink
           className={({ isActive }) =>
@@ -99,7 +101,11 @@ const Navbar = () => {
       });
   };
   return (
-    <nav className={`fixed z-50 w-full top-3 px-5 transition-all duration-300 ease-in-out ${isScroll? "" : "bg-white -mt-3 pt-2"}`}>
+    <nav
+      className={`fixed z-50 w-full top-3 px-5 transition-all duration-300 ease-in-out ${
+        isScroll ? "" : "bg-white -mt-3 pt-2"
+      }`}
+    >
       <div
         className={`${
           isScroll ? "bg-white/70 shadow-lg backdrop-blur-md" : "bg-transparent"
@@ -150,7 +156,7 @@ const Navbar = () => {
           <div className="navbar-end flex gap-2">
             <div title={user.displayName} className="hidden sm:block avatar">
               <div className="ring-primary ring-offset-base-100 w-10 rounded-full ring-2 ring-offset-2">
-                <img src={user.photoURL || defaultPhoto}  />
+                <img src={user.photoURL || defaultPhoto} />
               </div>
             </div>
             <button

@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../assets/logo.png";
 import { NavLink } from "react-router";
-import { FaFacebook, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 import { FaTwitch, FaX } from "react-icons/fa6";
 
 const Footer = () => {
@@ -97,15 +97,30 @@ const Footer = () => {
         <div className=" md:inline">
           <h3 className="text-yellow-400 text-xl mb-3">Email:</h3>
           <p className="text-white/60">
-            info@skilcirclet.com <br /> info@skillcircle.com
+            skilcirclet@gmail.com <br /> skillcircle@yahoo.com
           </p>
         </div>
         <div className=" md:inline">
           <h3 className="text-yellow-400 text-xl mb-3">Follow Us:</h3>
-          <p className="text-white/60 hover:text-white/90 flex gap-4">
-            <FaFacebook className="border p-2 rounded-lg" size={40}></FaFacebook>
-            <FaTwitter className="border p-2 rounded-lg" size={40}></FaTwitter>
-            <FaYoutube className="border p-2 rounded-lg" size={40}></FaYoutube>
+          <p className="text-white/60  flex gap-4">
+            <a href="https://www.facebook.com/dev.tanvirmahtab">
+              <FaFacebook
+                className="border p-2 rounded-lg hover:text-white/90 cursor-pointer"
+                size={40}
+              ></FaFacebook>
+            </a>
+            <a href="https://github.com/ts-webdev">
+              <FaGithub
+              className="border p-2 rounded-lg hover:text-white/90 cursor-pointer"
+              size={40}
+            ></FaGithub>
+            </a>
+            <a href="https://www.linkedin.com/m/in/tanvirmahtab-dev">
+              <FaLinkedin
+                className="border p-2 rounded-lg hover:text-white/90 cursor-pointer"
+                size={40}
+              ></FaLinkedin>
+            </a>
           </p>
         </div>
       </div>

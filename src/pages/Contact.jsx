@@ -10,21 +10,17 @@ const Contact = () => {
 
   const onSubmit = async (data) => {
     try {
-      // Simulate API call
+     
       await new Promise(resolve => setTimeout(resolve, 1500));
-      
-      // In a real app, you would send this to your backend or Firebase
       console.log('Form submitted:', data);
-      
-      // Show success toast
+    
       toast.success('Message sent successfully! We\'ll get back to you soon.');
       setIsSubmitted(true);
       reset();
-      
-      // Reset submission status after 5 seconds
+
       setTimeout(() => setIsSubmitted(false), 5000);
     } catch (error) {
-      toast.error('Failed to send message. Please try again.');
+      toast.error(error);
     }
   };
 
@@ -202,7 +198,7 @@ const Contact = () => {
                 className={`w-full py-3 px-6 rounded-lg font-semibold text-white transition-all duration-300 transform hover:scale-[1.02] ${
                   isSubmitting || isSubmitted 
                     ? 'bg-purple-500 cursor-not-allowed' 
-                    : 'bg-gradient-to-r from-[#7209B7] to-[#3A0CA3] hover:from-[#3A0CA3] hover:to-[#7209B7]'
+                    : 'bg-linear-to-r from-[#7209B7] to-[#3A0CA3] hover:from-[#3A0CA3] hover:to-[#7209B7]'
                 }`}
               >
                 {isSubmitting ? (
@@ -283,7 +279,7 @@ const Contact = () => {
         </div>
 
         {/* CTA Section */}
-        <div className="mt-16 text-center bg-gradient-to-r from-[#7209B7]/5 to-[#3A0CA3]/5 rounded-2xl p-8 animate__animated animate__fadeInUp">
+        <div className="mt-16 text-center bg-linear-to-r from-[#7209B7]/5 to-[#3A0CA3]/5 rounded-2xl p-8 animate__animated animate__fadeInUp">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
             Ready to Join Our Community?
           </h2>
@@ -293,7 +289,7 @@ const Contact = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href="/signup" 
-              className="px-8 py-3 bg-gradient-to-r from-[#7209B7] to-[#3A0CA3] text-white font-semibold rounded-lg hover:opacity-90 transition"
+              className="px-8 py-3 bg-linear-to-r from-[#7209B7] to-[#3A0CA3] text-white font-semibold rounded-lg hover:opacity-90 transition"
             >
               Sign Up Free
             </a>
