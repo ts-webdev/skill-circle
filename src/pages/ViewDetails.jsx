@@ -48,7 +48,7 @@ const ViewDetails = () => {
   return (
     <div>
       <section className="pt-20 sm:pt-32 bg-linear-to-tl from-[#7209B7] via-[#3A0CA3] to-[#3F37C9]">
-        <div className="sm:container mx-5 sm:mx-auto flex flex-col md:flex-row justify-between items-center">
+        <div className="animate__bounceIn sm:container mx-5 sm:mx-auto flex flex-col md:flex-row justify-between items-center">
           <div className="py-10 text-center text-white">
             <div className=" flex justify-center">
               <TiStarFullOutline
