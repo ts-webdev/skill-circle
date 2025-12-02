@@ -36,9 +36,6 @@ const AllSkills = () => {
     ),
   ];
 
-  // Skill types (if available in your data)
-  const skillTypes = ["all", "online", "in-person", "hybrid"];
-
   // Price ranges
   const priceRanges = [
     { value: "all", label: "All Prices" },
@@ -47,15 +44,6 @@ const AllSkills = () => {
     { value: "20-50", label: "$20 - $50" },
     { value: "50-100", label: "$50 - $100" },
     { value: "100+", label: "$100+" },
-  ];
-
-  // Ratings
-  const ratings = [
-    { value: "all", label: "All Ratings" },
-    { value: "4.5+", label: "4.5+ Stars" },
-    { value: "4.0+", label: "4.0+ Stars" },
-    { value: "3.5+", label: "3.5+ Stars" },
-    { value: "3.0+", label: "3.0+ Stars" },
   ];
 
   // Sorting functions

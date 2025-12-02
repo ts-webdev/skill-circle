@@ -8,6 +8,7 @@ import lang from "../assets/lang.png";
 import coding from "../assets/coding.png";
 import yoga from "../assets/yoga.png";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { Link } from "react-router";
 
 const Banner = () => {
   return (
@@ -41,9 +42,11 @@ const Banner = () => {
               <p className="hidden sm:block text-2xl">
                 Master languages, build confidence, and connect with the world.
               </p>
+              <Link to={"/all-skills"}>
               <button className="hidden lg:block btn mt-3 btn-success text-white">
                 Explore All Skills
               </button>
+              </Link>
             </div>
           </div>
         </SwiperSlide>
@@ -68,7 +71,11 @@ const Banner = () => {
                 Learn modern programming skills and shape tomorrow’s innovations
                 today.
               </p>
-              <button className="hidden lg:block btn mt-3">Explore All Skills</button>
+              <Link to={"/all-skills"}>
+              <button className="hidden lg:block btn mt-3">
+                Explore All Skills
+              </button>
+              </Link>
             </div>
           </div>
         </SwiperSlide>
@@ -89,9 +96,11 @@ const Banner = () => {
                 Discover wellness, focus, and growth through mindful learning
                 experiences.
               </p>
-              <button className="hidden lg:block btn btn-error mt-3 text-white">
-                Explore All Skills
-              </button>
+              <Link to={"/all-skills"}>
+                <button className="hidden lg:block btn btn-error mt-3 text-white">
+                  Explore All Skills
+                </button>
+              </Link>
             </div>
           </div>
         </SwiperSlide>
